@@ -1,19 +1,21 @@
 .create-form-container{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     padding: 20px;
+    min-height: 80vh;
 }
-.column-form column-left{
-
+.column-form {
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.column-left{
     width: 25%;
 }
-.column-form column-middle{
-
+.column-middle{
     width: 50%;
 }
-.column-form column-left{
-
+.column-right{
     width: 25%;
 }

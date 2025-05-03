@@ -1,5 +1,5 @@
 
-import '../App.css';
+import './template.css';
 export const CustomHeader = () => {
   return (
     <header className="header-container">

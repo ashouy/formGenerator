@@ -1,0 +1,35 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .custom-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  .nav-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  .nav-item{
+    margin: 0 10px;
+  }
+  .a-link{
+    border-radius: 5px;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+    .a-link:hover{
+        background-color: #0039aa;
+    }
+    .a-link:active{
+        background-color: #02153b;
+    }
