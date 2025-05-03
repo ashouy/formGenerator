@@ -1,0 +1,19 @@
+.create-form-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.column-form column-left{
+
+    width: 25%;
+}
+.column-form column-middle{
+
+    width: 50%;
+}
+.column-form column-left{
+
+    width: 25%;
+}
